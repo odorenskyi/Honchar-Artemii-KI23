@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1710688381 source:c:\univerproj\bmtp\honchar-artemii-ki23\lab09\prj\gonchar_task\main.cpp
+	<iostream>
+	<windows.h>
+	"ModulesGonchar.h"
+
+1710680476 c:\univerproj\bmtp\honchar-artemii-ki23\lab08\prj\modulesgonchar\modulesgonchar.h
+

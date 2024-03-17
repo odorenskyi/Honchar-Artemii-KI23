@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1710678328 source:c:\univerproj\bmtp\honchar-artemii-ki23\lab08\prj\modulesgonchar\main.cpp
+	<cmath>
+	<iostream>
+
