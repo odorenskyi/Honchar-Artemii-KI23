@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1715181573 source:c:\univerproj\bmtp\honchar-artemii-ki23\lab10\prj\testdriver\main.cpp
+	<iostream>
+	"ModulesGonchar.h"
+	<locale>
+
+1715181312 c:\univerproj\bmtp\honchar-artemii-ki23\lab10\modulesgonchar\modulesgonchar.h
+
