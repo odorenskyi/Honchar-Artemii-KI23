@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1715801930 source:/home/tema/univer/bmtp/Honchar-Artemii-KI23/lab11/prj/ZakharchenkoModules/main.cpp
+	"ZakharchenkoModules.h"
+
+1715802105 /home/tema/univer/bmtp/Honchar-Artemii-KI23/lab11/prj/ZakharchenkoModules/ZakharchenkoModules.h
+	<string>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+

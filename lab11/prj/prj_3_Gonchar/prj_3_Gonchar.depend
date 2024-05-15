@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1715802526 source:/home/tema/univer/bmtp/Honchar-Artemii-KI23/lab11/prj/prj_3_Gonchar/main.cpp
+	<iostream>
+	"ModulesGonchar.h"
+	"LinnikovaModules.h"
+	"ZakharchenkoModules.h"
+	"struct_type_project_2.h"
+
+1715706754 /home/tema/univer/bmtp/Honchar-Artemii-KI23/lab11/prj/ModulesGonchar/ModulesGonchar.h
+
+1715799751 /home/tema/univer/bmtp/Honchar-Artemii-KI23/lab11/prj/LinnikovaModules/LinnikovaModules.h
+	<string>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+
+1715796104 /home/tema/univer/bmtp/Honchar-Artemii-KI23/lab11/prj/libs/struct_type_project_2.h
+	<iostream>
+
+1715802105 /home/tema/univer/bmtp/Honchar-Artemii-KI23/lab11/prj/ZakharchenkoModules/ZakharchenkoModules.h
+	<string>
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+
