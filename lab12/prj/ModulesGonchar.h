@@ -9,20 +9,13 @@ public:
         formatd(len);
     };
 
-    void setLen(float len);
+    void setLength(float len);
     void setFull();
 
-    float getLen() {
-        return lengthCube;
-    };
+    float getLength();
+    float getVolume();
 
-    float getVol() {
-        return pow(lengthCube, 3);
-    };
-
-    char getRipn() {
-        return full;
-    };
+    char getIsFull();
 private:
     void formatd(float len);
     bool lenValidate(float len);
@@ -30,12 +23,25 @@ private:
     char full;
 };
 
+float ClassLab12_Gonchar::getLength() {
+    return lengthCube;
+}
+
+float ClassLab12_Gonchar::getVolume() {
+    return pow(lengthCube, 3);
+}
+
+char ClassLab12_Gonchar::getIsFull() {
+    return full;
+}
+
+
 void ClassLab12_Gonchar::formatd(float len) {
-    setLen(len);
+    setLength(len);
     full = 'n';
 };
 
-void ClassLab12_Gonchar::setLen(float len) {
+void ClassLab12_Gonchar::setLength(float len) {
     if (lenValidate(len) == true) {
         lengthCube = len;
     }
@@ -43,13 +49,11 @@ void ClassLab12_Gonchar::setLen(float len) {
 };
 
 bool ClassLab12_Gonchar::lenValidate(float len) {
-    if (len > 0 && len < 1) { return true; }
-    else { return false; }
-};
+    return len > 0 && len < 1;
+}
 
 void ClassLab12_Gonchar::setFull() {
-    if (full == 'n') full = 'y';
-    else full = 'n';
-};
+    full = (full == 'n') ? 'y' : 'n';
+}
 
 #endif // MODULESGONCHAR_H_INCLUDED
