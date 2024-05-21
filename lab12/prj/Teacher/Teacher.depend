@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1716289484 source:c:\univerproj\bmtp\honchar-artemii-ki23\lab12\prj\teacher\main.cpp
+	<vector>
+	<iostream>
+	<string>
+	<fstream>
+	<Windows.h>
+	"ModulesGonchar.h"
+
+1716287320 c:\univerproj\bmtp\honchar-artemii-ki23\lab12\prj\modulesgonchar.h
+	<cmath>
+
